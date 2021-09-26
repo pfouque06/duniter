@@ -12,7 +12,6 @@ http://0.0.0.0:9220/#/sync
 
 - web admin :  
 http://0.0.0.0:9220/  
-http://plex:9220/  
 
 - setup member key :  
 [duniter]~ $ duniter wizard key  
