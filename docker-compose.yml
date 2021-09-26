@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+
+  duniter:
+    image: duniter/duniter
+    restart: always
+    ports:
+      - "9220:9220"
+      - "10901:10901"
+      - "20901:20901"
