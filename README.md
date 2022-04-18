@@ -1,6 +1,6 @@
 
 - Docker image :  
-https://hub.docker.com/r/duniter/duniter
+https://hub.docker.com/r/duniter/duniter  
 next : https://hub.docker.com/r/duniter/duniter-v2s
 
 - install and start container :  
