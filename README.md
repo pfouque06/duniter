@@ -9,7 +9,7 @@ $ docker-compose exec duniter /bin/sh
 http://0.0.0.0:9220/  
 
 - node sync :  
-[duniter]~ $ duniter sync g1.duniter.com  
+[duniter]~ $ duniter sync g1.duniter.org   
 or  
 http://0.0.0.0:9220/#/sync  
 
