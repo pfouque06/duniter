@@ -25,3 +25,8 @@ http://0.0.0.0:9220/#/sync
 [duniter]~ $ duniter wizard key  
 or  
 http://0.0.0.0:9220/#/main/settings/crypto  
+
+- setup network :  
+[duniter]~ $ duniter wizard network  
+or  
+http://0.0.0.0:9220/#/main/settings/network  
