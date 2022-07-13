@@ -1,1 +1,3 @@
 duniter_export.*
+data/*
+!data/.gitkeep 

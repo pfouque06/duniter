@@ -3,6 +3,10 @@
 https://hub.docker.com/r/duniter/duniter  
 next : https://hub.docker.com/r/duniter/duniter-v2s
 
+- in order to persist config and database, give proper right to data directory (root right may be necessary) :  
+$ mkdir data
+$ chown -R 1111:1111 data  
+
 - install and start container :  
 $ docker-compose up -d  
 
