@@ -1,3 +1,9 @@
 duniter_export.*
+
+# local data volume mounted to /var/lib/duniter
 data/*
-!data/.gitkeep 
+!data/.gitkeep
+
+# local keychain volume mounted to /etc/duniter
+keychain/*
+!keychain/.gitkeep 

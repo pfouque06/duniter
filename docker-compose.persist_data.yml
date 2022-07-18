@@ -5,7 +5,7 @@ services:
 
   duniter:
     image: duniter/duniter
-    restart: always
+    restart: always # unless_stopped for non production nodes
     volumes:
       - data:/var/lib/duniter
     ports:
