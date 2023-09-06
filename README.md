@@ -69,3 +69,17 @@ $ docker image ls
 $ docker-compose up -d
 $ docker-composer image
 ```
+
+- logging warning :
+Duniter logging is VERY verbose.
+Therefore, we try to control verbosity by log file zize and rotation within logging options.
+
+In order to check log size, try :
+```
+$ sudo find /var/lib/docker/containers/ -type f -name "*.log" -exec ls -lh "{}" \; | awk "{print \$5,\$9}"
+```
+
+To flush logs, try :
+```
+$ sudo sh -c "truncate -s 0 /var/lib/docker/containers/*/*-json.log"
+```
